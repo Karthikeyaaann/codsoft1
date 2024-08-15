@@ -1,0 +1,80 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+/* Basic reset for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Font family for the entire document */
+    line-height: 1.6; /* Line height for better readability */
+    color: #5F9EA0; /* Text color */
+}
+
+header {
+    background: #BC8F8F; /* Header background color */
+     color: #9ACD32; /* Header text color */
+    padding: 1rem 0; /* Padding for header content */
+    text-align: center; /* Center-align header content */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Align navigation items horizontally */
+}
+
+header nav ul li {
+    margin: 0 1rem; /* Add space between navigation items */
+}
+
+header nav ul li a {
+    color: #A52A2A; /* Navigation item text color */
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem; /* Padding for main content */
+}
+
+section {
+    margin-bottom: 2rem; /* Add space between sections */
+}
+
+.service {
+    border: 1px solid #ccc; /* Border for service boxes */
+    padding: 1rem; /* Padding for service boxes */
+    margin: 1rem 0; /* Add space between service boxes */
+    border-radius: 5px; /* Rounded corners for service boxes */
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.7rem; /* Padding for form button */
+    background: #DEB887; /* Button background color */
+    color: #FF4500; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer;
+}
+
+footer {
+    background: #DDA0DD; /* Footer background color */
+    color: #E6E6FA; /* Footer text color */
+    text-align: center; /* Center-align footer content */
+    padding: 1rem 0; /* Padding for footer content */
+    margin-top: 2rem; /* Add space above footer */
+}
